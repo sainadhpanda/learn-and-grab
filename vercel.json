@@ -1,0 +1,19 @@
+{
+  "buildCommand": "pnpm install && pnpm run build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "outputDirectory": "artifacts/learn-and-grab/dist/public",
+  "env": {
+    "PORT": "3000",
+    "BASE_PATH": "/"
+  },
+  "envPrefix": "",
+  "nodeVersion": "20.x",
+  "regions": ["iad1"],
+  "functions": {
+    "api/**": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
