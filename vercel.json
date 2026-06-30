@@ -3,7 +3,7 @@
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
   "framework": "vite",
-  "outputDirectory": "artifacts/learn-and-grab/dist/public",
+  "outputDirectory": "dist",
   "env": {
     "PORT": "3000",
     "BASE_PATH": "/"
